@@ -1,0 +1,3 @@
+This is an introduction to Backbone.js, where a user has a journal that they can post many different entries into. Rather than making a completely new request to refresh the page, the user can make an ajax request to perform a CRUD method and update the particular model or collection (posts, usually). A little bit of Bootstrap to make things a bit prettier, but the main exercise for me was to practice with Backbone.js.
+
+User's can also edit a post with some Javascript UI magic, where an event occurs when a user double clicks on a section and can write in their new contents. When the section blurs, another event occurs to save the edited section to the database (if it's valid, otherwise it will go back to it's original post).
